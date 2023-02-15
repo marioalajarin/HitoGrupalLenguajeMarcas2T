@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Lenguaje_de_marcas/fotos/file-format-document-json-extension-programming-coding-2-17946.png">
+    <title>XML y JSON</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">☰</label>
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="#">Categorias</a>
+                    <a href="#">Ultimos post</a>
+                    <a href="#XMLID">XML</a>
+                    <a href="#JSONID">JSON</a>
+                    <a href="#">Siguenos en nuestras redes</a>
+                    <div id="menu-redes">
+                    <ul class="lista-menu-redes">
+                      <li><a href="https://www.facebook.com/">
+                        <img src="Lenguaje_de_marcas/fotos/logofacebook.png" alt="Facebook_logo" class="fb-logo"><p>Facebook</p></a>
+                      </li>
+                      <li><a href="https://twitter.com/">
+                        <img src="Lenguaje_de_marcas/fotos/logotwitter.png" alt="Twitter_logo" class="twt-logo"><p>Twitter</p></a>
+                      </li>
+                      <li><a href="https://www.instagram.com/">
+                        <img src="Lenguaje_de_marcas/fotos/Instagram-Logo.png" alt="Instagram_logo" class="ig_logo"><p>Instagram</p></a>
+                      </li>
+                    </ul>
+                    </div>
+                </nav>
+            <label for="btn-menu">X</label>
+            </div>
+        </div>
+        <a href="hub.html">
+          <img src="Lenguaje_de_marcas/fotos/HTML5_logo_and_wordmark.svg.png">
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="hub.html" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="LenguajeFormulario/formulario.html" class="nav-link px-2 text-white">Contáctanos</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="contenido">
+    <div class="contenido-titulo">
+      <div class="titulo">
+        <h1>XML y JSON</h1>
+      </div>
+      <div class="subtitulo">
+        <h3>Historia, normas de uso y sintaxis y aplicaciones en el ámbito empresarial</h3>
+      </div>
+    </div>
+    <div class="XML" id="XMLID">
+      <div class="XML-titulo">
+        <h1>XML</h1>
+      </div>
+      <div class="XML-subtitulos">
+        <div class="XML-historia">
+          <h3>Historia</h3>
+          <div class="XML-historia-1">
+            <p id="txt1">XML es un lenguaje que viene inventado en los años 70 por IBM para ayudar a las empresas a almacenar grandes cantidades de información. El lenguaje de IBM se denominaba GML (General Markup Language). Había demasiada información y por ello crearon el lenguaje GML para clasificar los datos de manera que se pudieran procesar adecuadamente.</p>
+          </div>
+          <div class="XML-historia-2">
+            <p id="txt2">Dicho lenguaje gustó mucho a la gente de ISO, los cuales trabajaban normalizando cuantas cosas pudieras imaginar en la época. Por el año 86, normalizaron el lenguaje GML el cual pasó a llamarse SGML debido a que crearon e implementaron un sistema en inglés.</p>
+          </div>
+          <div class="XML-historia-3">
+            <p id="txt3">En el año 89, se creó el lenguaje HTML, el cual fue adoptado tanto por la comunidad como por un gran número de empresas que empezaron a utilizar este lenguaje para dar forma a sus páginas web.</p>
+          </div>
+          <div class="XML-historia-4">
+            <p id="txt4">Desde el año 96 hasta la actualidad, se creó una herramienta llamada W3C creada para poner orden al lenguaje HTML lo cual falló ya que HTML se descontroló.</p>
+          </div>
+          <div class="XML-historia-5">
+            <p id="txt5">Esta misma herramienta W3C empezó y continúa en la evolución del lenguaje XML. Esta herramienta fué creada para solucionar problemas relacionados con el lenguaje HTML. Algunos problemas eran que el contenido se mezclaba con los estilos que se pretendían aplicar, a veces no se permitía compartir información a dispositivos móviles u ordenadores o que la presentación varía dependiendo del visor que se utilice.</p>
+          </div>
+        </div>
+        <div class="XML-reglas">
+          <h3>Reglas</h3>
+          <ul>
+            <li><img src="Lenguaje_de_marcas/fotos/xml file example storing names and test scores of students-1.png" class="XML-reglas-img"></li>
+            <p id="txt">XML es un lenguaje que requiere unas reglas de sintaxis específicas:</p>
+            <li class="XML-reglas">Todo elemento dentro del XML necesita tener una etiqueta de cierre.</li>
+            <li class="XML-reglas">Los elementos de un XML son muy sensibles a mayúsculas y minúsculas.</li>
+            <li class="XML-reglas">Dentro de un XML los elementos deben estar correctamente anidados.</li>
+            <li class="XML-reglas">Todo XML debe contener un elemento raíz.</li>
+            <li class="XML-reglas">Los atributos siempre deben ir entre comillas.</li>
+          </ul>
+        </div>
+        <div class="XML-aplic">
+          <h3>Aplicaciones</h3>
+          <ul>
+            <p id="txt">Los documentos XML se utilizan en diversas aplicaciones tales como:</p>
+            <li class="XML-aplic">Intercambio de información: Los documentos XML se utilizan entre las aplicaciones para el intercambio de información. Esto hace que exista una fácil integración de diferentes sistemas.</li>
+            <li class="XML-aplic">Documentación electrónica:  El XML se utiliza para crear documentos electrónicos como facturas, contratos o formularios que tienen una estructura y contenidos definidos.</li>
+            <li class="XML-aplic">Integración de aplicaciones: XML permite la integración entre aplicaciones y sistemas de diferentes plataformas lo que le da mucha flexibilidad y escalabilidad.</li>
+            <li class="XML-aplic">Aplicaciones web: XML se utiliza para la creación de páginas o sitios web como el almacenamiento o recuperación de datos.</li>
+            <li class="XML-aplic">Análisis de los datos: Los documentos XML se utilizan para recopilar, analizar y presentar los datos o la información. Esto permite una mejor toma de decisiones y una mayor eficiencia durante los procesos.</li>
+            <img src="Lenguaje_de_marcas/fotos/187684.png" class="XML-aplic-img">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="JSON" id="JSONID">
+      <div class="JSON-titulo">
+        <h1>JSON</h1>
+      </div>
+      <div class="JSON-subtitulos">
+        <div class="JSON-historia">
+          <h3>Historia</h3>
+          <div class="JSON-historia-1">
+            <p id="txt1">JSON (JavaScript Object Notation) es un archivo que ordena los datos de manera legible y organizada. Los datos en el archivo JSON se presentan en archivos de texto que van entre pares de llaves o claves.</p>
+          </div>
+          <div class="JSON-historia-2">
+            <p id="txt2">Al tener una gran relación con JavaScript, este lenguaje puede ser leído por varios lenguajes de programación lo que hace que debido a la universalidad de JavaScript haya logrado JSON un gran prestigio. Muchos sitios web utilizan JSON para compartir datos en tiempo real por Internet. Por esta razón, los feeds de JSON son más utilizables que los feeds XML.</p>
+          </div>
+          <div class="JSON-historia-3">
+            <p id="txt3">JSON fué creado por Douglas Crockford quien sigue siendo la figura principal para mantener el sitio web json.org. La primera especificación de JSON surgió de ECMA-404 de 2013 pero el sitio web de JSON fué creado en 2002. Aplicaciones como Yahoo o Google comenzaron a utilizarlo desde 2005 y 2006.</p>
+          </div>
+          <div class="JSON-historia-4">
+            <p id="txt4">JSON en otras palabras JSON funciona un poco como XML (pero menos desarrollado) y facilita como la información se estructura dentro de la computadora. JSON se utiliza solo para transferir datos por lo cual no se aceptan comentarios. Si el documento está escrito en JavaScript los comentarios serían aceptados. JSON es un lenguaje comprensible tanto para la mente humana como para la máquina.</p>
+          </div>
+          <div class="JSON-historia-5">
+            <p id="txt5">JavaScript Object Notation son solo textos por lo tanto se pueden almacenar de muchas maneras. Se pueden almacenar estos datos en bases de datos, en archivos de textos separados o en el propio archivo JSON.</p>
+          </div>
+        </div>
+        <div class="JSON-reglas">
+          <h3>Reglas</h3>
+          <ul>
+            <p id="txt">JSON se utiliza en varias situaciones como:</p>
+            <li class="JSON-reglas">Solicitudes AJAX, ya que JavaScript es más rápido y fácil de explorar qué XML.</li>
+            <li class="JSON-reglas">Para enviar información de un usuario a una página web y viceversa ya que lo convierte en un lenguaje ideal y universal para el intercambio de datos.</li>
+            <li class="JSON-reglas">Formato de texto para implementar tags de datos estructurados de schema.org, que estructuran las páginas HTML y permiten que los mecanismos de búsqueda entiendan el contenido. Actualmente, Google también recomienda este formato para optimizar estrategias de SEO.</li>
+            <p id="txt">Además JSON requiere algunas normas de sintaxis como:</p>
+            <li class="JSON-reglas">Todos los datos a representar deben estar entre llaves { } excepto cuando se refiera a un array que va con los corchetes [ ].</li>
+            <li class="JSON-reglas">En los artículos JSON las comillas simples no están permitidas.</li>
+            <li class="JSON-reglas">La llave JSON tiene que ser simple e ir entre comillas dobles.</li>
+            <li class="JSON-reglas">Los números no deben ir entre comillas dobles porque se transformarian en string.</li>
+            <li class="JSON-reglas">El tipo de dato null no debe ir entre comillas dobles.</li>
+            <li class="JSON-reglas">Los valores booleanos sólo pueden ser verdaderos o falsos.</li>
+            <li class="JSON-reglas">Cada par llave:valor debe terminar con una coma, excepto el último elemento</li>
+            <li class="JSON-reglas">Un solo objeto dentro de un arreglo debe terminar también con una coma.</li>
+          </ul>
+        </div>
+        <div class="JSON-aplic">
+          <h3>Aplicaciones</h3>
+          <ul>
+            <li><img src="Lenguaje_de_marcas/fotos/2022-02-22_08h18_10.png" class="JSON-aplic-img"></li>
+            <p id="txt">A continuación podemos observar algunas aplicaciones de JSON en el ámbito empresarial:</p>
+            <li class="JSON-reglas">Integración de aplicaciones: Un archivo JSON permite intercambiar datos de manera fácil y eficiente. Por ejemplo, una aplicación de gestión de inventarios utiliza JSON para actualizar el registro de ventas e inventario.</li>
+            <li class="JSON-reglas">Servicios web: JSON es un formato que permite la transferencia de datos en sitios web. Por ejemplo, una empresa puede utilizar JSON para acceder a datos de otras aplicaciones o para compartir información con terceros.</li>
+            <li class="JSON-reglas">Almacenamiento de datos: JSON es un formato flexible y fácil de leer. Por ejemplo puedes usar archivos JSON para almacenar datos sobre clientes, ventas u otra información importante.</li>
+            <li class="JSON-reglas">Comunicación de datos en tiempo real: JSON permite el intercambio de información en tiempo real en chats en línea, videojuegos o sistemas de monitoreo.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">Hito grupal de lenguaje de marcas 2ª Evaluación</p>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Mario Alajarín</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Daniel Manzano</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Álvaro Heras</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">1ºDAM</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
